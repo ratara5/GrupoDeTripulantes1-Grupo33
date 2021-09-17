@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+    min-height: 100%;
+    scroll-snap-type: y mandatory;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    min-height: 100%;
+}
+.header{
+    text-align: center;
+    background-color: #D5BFBF;
+    padding: 0.5rem;
+}
+.navegar{
+    background-color: #316B83;
+}
+.navegacion{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+@media(min-width: 798px){
+    .navegacion{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
