@@ -21,6 +21,27 @@ body{
     flex-direction: column;
     padding: 0.5rem;
 }
+*{
+    box-sizing: border-box;
+}
+.testimonios{
+    display: flex;
+    height: 400px;
+    align-content: space-between;
+    justify-content: space-around;
+    background-color: #6D8299;
+    padding: 0px;
+    border: 2px solid black;
+}
+.testimonios div{
+    background-color: #8CA1A5;
+    width: 450px;
+    margin: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    border: 2px solid black;
+}
 @media(min-width: 798px){
     .navegacion{
         flex-direction: row;
