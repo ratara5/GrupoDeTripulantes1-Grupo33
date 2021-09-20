@@ -23,7 +23,55 @@ body{
 }
 *{
     box-sizing: border-box;
+
 }
+main{
+   background-color: #F3F1F5; 
+}
+
+/* Center align the text within the three columns below the carousel */
+
+
+.principal{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color:#512D6D
+   
+  }
+
+.contenedor .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: 316B83;
+    color:#512D6D
+
+         }
+  .contenedor h2 {
+    font-weight: 600;
+    color: #32E0C4;
+    text-shadow: 2px 2px 2px #303960;
+    
+  }
+  /* rtl:begin:ignore */
+.contenedor .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .contenedor .btn-secondary{
+color : #D5BFBF
+  }
+
+  
+ .contenedor.imagen-redonda{
+     width: 150px;
+     height: 150px;
+ }
+
+
+
+
+
 .testimonios{
     display: flex;
     height: 400px;
