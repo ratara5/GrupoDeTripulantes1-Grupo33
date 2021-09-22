@@ -34,11 +34,9 @@ body {
 .navegacion .cont-a {
   border-right: none;
 }
-@media (min-width: 798px) {
-  .navegacion {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+.navegacion a:hover {
+  text-decoration: none;
+  color: yellowgreen;
 }
 * {
   box-sizing: border-box;
@@ -47,7 +45,7 @@ main {
   background-color: #f3f1f5;
 }
 
-.centro{
+.centro {
   text-align: center;
 }
 
@@ -136,9 +134,9 @@ main {
   margin-bottom: 0.5rem;
   display: block;
 }
-.campo input[type="text"],
-.campo input[type="tel"],
-.campo input[type="email"],
+.campo input[type='text'],
+.campo input[type='tel'],
+.campo input[type='email'],
 .campo textarea {
   width: 100%;
   padding: 0.5rem;
