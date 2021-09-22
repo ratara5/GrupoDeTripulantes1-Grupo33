@@ -47,6 +47,10 @@ main {
   background-color: #f3f1f5;
 }
 
+.centro{
+  text-align: center;
+}
+
 /* Center align the text within the three columns below the carousel */
 
 .principal {
@@ -81,25 +85,6 @@ main {
   height: 150px;
 }
 
-.testimonios {
-  display: flex;
-  height: 400px;
-  align-content: space-between;
-  justify-content: space-around;
-  background-color: #6d8299;
-  padding: 0px;
-  border: 2px solid black;
-}
-.testimonios div {
-  background-color: #8ca1a5;
-  width: 450px;
-  margin: 0px;
-  text-align: center;
-  line-height: 30px;
-  font-size: 15px;
-  border: 2px solid black;
-}
-
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.1);
@@ -112,4 +97,59 @@ main {
 .bi {
   vertical-align: -0.125em;
   fill: currentColor;
+}
+
+.formulario {
+  background-color: var(--gris);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.formulario legend {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--primario);
+  margin-bottom: 2rem;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contenedor campos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.campo {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.w-100 {
+  flex: 0 0 100%;
+}
+
+.campo label {
+  color: var(--blanco);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.campo input[type="text"],
+.campo input[type="tel"],
+.campo input[type="email"],
+.campo textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.campo textarea {
+  height: 4rem;
+}
+
+.enviar {
+  display: flex;
+  justify-content: flex-end;
 }
