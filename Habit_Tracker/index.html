@@ -31,7 +31,9 @@
   <br/> <br/>
 <main>
   <div>
-    <img src="./img/banner habit tracker.jpg" alt="banner del sitio">
+    <p class="centro">
+      <img src="./img/banner habit tracker.jpg" alt="banner del sitio">
+    </p>
   </div>
 
   <br/> <br/>
@@ -47,7 +49,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div class ="imagen-redonda"> 
-        <img src="./img/Habitos.jpg" width="250" height="200"/>
+        <img src="./img/Habitos.jpg" width="250" height="200" />
          </div>
         <h2>¿Por qué adquirir hábitos?</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
@@ -81,12 +83,18 @@
 
     </br>
     <!--fin modificando Geraldin COrdero-->
-  <div>
-    <h2>Testimonios</h2>
-    <div class="testimonios">
-      <div class="testimonios div">
-        <div class="card" style="width: 200rem;">
-          <img src="./img/Perano.png" class="card-img-top" height="200" width="70">
+
+  <div class="contenedor">
+
+    <div class="principal">
+      <h2>De nuestros visitantes</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="card" style="width: 25rem">
+          <img src="./img/Perano.png" class="card-img-top" height="200" width="10">
           <div class="card-body">
             <h5 class="card-title">Perano</h5>
             <p class="card-text">EXCELENTE Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -95,9 +103,9 @@
         </div>
       </div>
 
-      <div class="testimonios div">
-        <div class="card" style="width: 200rem;">
-          <img src="./img/Fulano.jpg" class="card-img-top" height="200" width="70">
+      <div class="col-lg-4">
+        <div class="card" style="width: 25rem">
+          <img src="./img/Fulano.jpg" class="card-img-top" height="200" width="10">
           <div class="card-body">
             <h5 class="card-title">Fulano</h5>
             <p class="card-text">GENIAL Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -106,9 +114,9 @@
         </div>
       </div>
 
-      <div class="testimonios div">
-        <div class="card" style="width: 200rem;">
-          <img src="./img/Sultano.jpg" class="card-img-top" height="200" width="70">
+      <div class="col-lg-4">
+        <div class="card" style="width: 25rem">
+          <img src="./img/Sultano.jpg" class="card-img-top" height="200" width="10">
           <div class="card-body">
             <h5 class="card-title">Sultano</h5>
             <p class="card-text">SUPER Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -116,45 +124,43 @@
           </div>
         </div>
       </div>
+
     </div>
+    
   </div>
 
   <br/>
 
-  <div class="contacto">
-    <h3>Contacto</h3>
-    <form>
-      <fieldset>
-        <legend>Contactanos llenando todos los campos </legend>
+  <div>
+    <div id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form class="formulario" action="#" method="POST">
+            <legend>Contáctanos llenando todos los campos</legend>
+            <div class="contenedor de campos">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                </div>
+                <div class="campo w-100">
+                    <label>Correo</label>
+                    <input type="email" name="correo" placeholder="Mail">
+                </div>
+                <div class="campo w-100">
+                    <label>Mensaje:</label>
+                    <textarea> </textarea>
+                </div>
+                <div class="enviar">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+        </form>
+    </div>
+</div>
 
-        <div>
-          <label>Nombre:</label>
-          <Input type="text" placeholder="Nombre">
-        </div>
-
-        <div>
-          <label>Telefono:</label>
-          <Input type="tel" placeholder="Teléfono">
-        </div>
-
-        <div>
-          <label>Correo:</label>
-          <Input type="email" placeholder="email">
-        </div>
-
-        <div>
-          <label>Mensaje:</label>
-          <textarea>  </textarea>
-        </div>
-
-        <div>
-          <input type="submit" value="Enviar">
-        </div>
-      </fieldset>
-    </form>
-  </div>
-
- <div class="b-example-divider"></div>
+<div class="b-example-divider"></div>
 
 <div class="container">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
