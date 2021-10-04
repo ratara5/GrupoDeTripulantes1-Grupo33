@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>De nuestros visitantes</h1>
+    <h1>De nuestros visitantes</h1>    
     <div class="ui grid">
       <div class="three wide column">
         <div class="ui comments">
@@ -17,7 +17,7 @@
                   5 Faves
                 </div>
               </div>
-              <div class="text">Hola, esto es muy bueno.</div>
+              <div class="text">Hola, esto es muy bueno. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sit officia possimus accusamus, qui quas soluta architecto iure, modi consequatur nesciunt, expedita exercitationem odio perferendis voluptatibus? Non tenetur aliquam voluptas. </div>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@
                   4 Faves
                 </div>
               </div>
-              <div class="text">Saludos, esto es genial.</div>
+              <div class="text">Saludos, esto es genial. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae quisquam asperiores odit laborum, voluptatibus culpa veritatis aspernatur expedita et incidunt consectetur voluptatem ut eius quibusdam dolor nulla perspiciatis reiciendis?</div>
             </div>
           </div>
         </div>
@@ -57,13 +57,13 @@
                   4.5 Faves
                 </div>
               </div>
-              <div class="text">Que hay, HT es excelente!</div>
+              <div class="text">Que hay, HT es excelente! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium hic excepturi ea magnam tempora necessitatibus doloribus, cum inventore exercitationem quidem quod vero. Perferendis, assumenda labore ipsam aliquam nulla qui consectetur.</div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 </template>
 
 <script>
@@ -73,8 +73,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.ui.grid {
-  .ui.comments {
+  *{
+  font-family: 'Comfortaa', cursive;
   }
-}
+  .ui.grid{
+    
+    background-color: rgba(9, 126, 126,0.25);
+    .three.wide.column{    
+      margin:5%;
+      .ui.comments{
+        text-align: left;
+        background-color: rgba(105, 99, 184, 0.25);
+        width:175%;          
+        .content{
+          font-size: 20px;
+        }
+      }
+    }    
+  }
 </style>
