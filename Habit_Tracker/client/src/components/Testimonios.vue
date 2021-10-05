@@ -84,11 +84,15 @@ export default {
       .ui.comments{
         text-align: left;
         background-color: rgba(105, 99, 184, 0.25);
-        width:175%;          
+        width:175%;
+        .avatar{
+          width:60px;
+          height:60px;
+        }               
         .content{
           font-size: 20px;
         }
       }
     }    
-  }
+  } 
 </style>
